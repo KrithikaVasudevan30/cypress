@@ -8,5 +8,5 @@ describe('Login Test Practice',()=>{
         cy.get('.btn').click()
         cy.get('#error').eq(0).should('be.visible').and('have.text',"Your username is invalid!")
         })
-    })
+    }    )
     
